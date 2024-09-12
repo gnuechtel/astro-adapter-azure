@@ -24,7 +24,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "npm run build && npm publish --access public"
   },
   "peerDependencies": {
     "astro": "^4.2.0"

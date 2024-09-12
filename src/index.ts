@@ -48,7 +48,7 @@ app.http("handler", {
   }
 
   return {
-    name: "@bluvenit/astro-adapter-azure",
+    name: "@gnuechtel/astro-adapter-azure",
     hooks: {
       "astro:config:setup": async ({ config, updateConfig }) => {
         rootDir = config.root;
@@ -68,8 +68,8 @@ app.http("handler", {
         _config = config;
 
         setAdapter({
-          name: "@bluvenit/astro-adapter-azure",
-          serverEntrypoint: "@bluvenit/astro-adapter-azure/ssr-function.js",
+          name: "@gnuechtel/astro-adapter-azure",
+          serverEntrypoint: "@gnuechtel/astro-adapter-azure/ssr-function.js",
           exports: ["default"],
           adapterFeatures: {
             functionPerRoute: false,

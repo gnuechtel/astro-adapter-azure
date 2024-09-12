@@ -1,15 +1,15 @@
 {
-  "name": "@bluvenit/astro-adapter-azure",
+  "name": "@gnuechtel/astro-adapter-azure",
   "description": "Deploy your site to Azure using SWA",
   "version": "0.0.5",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "author": "lgastler",
+  "author": "gnuechtel",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/bluvenit/astro-adapter-azure.git"
+    "url": "https://github.com/gnuechtel/astro-adapter-azure.git"
   },
   "keywords": [
     "withastro",

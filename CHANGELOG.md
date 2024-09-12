@@ -1,4 +1,4 @@
-# @bluvenit/astro-adapter-azure
+# @gnuechtel/astro-adapter-azure
 
 ## 0.0.5
 
